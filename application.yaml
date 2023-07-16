@@ -6,6 +6,10 @@ indexing-settings:
       name: Skillbox
     - url: https://www.playback.ru
       name: PlayBack.Ru
+    - url: https://www.svetlovka.ru
+      name: Svetlovka.Ru
+    - url: https://dimonvideo.ru
+      name: Dimonvideo.Ru
 
 server:
   port: 8080
