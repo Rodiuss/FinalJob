@@ -152,7 +152,7 @@ public class SiteIndexed implements Runnable {
     }
 
     private void errorSite() {
-        SitePage sitePage = new SitePage();
+        SitePage sitePage = siteRepository.findByUrl(url);
         sitePage.setLastError("Indexing stopped");
         sitePage.setStatus(Status.FAILED);
         sitePage.setStatusTime(new Date());
